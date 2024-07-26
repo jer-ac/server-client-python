@@ -14,8 +14,8 @@ readme = "README.md"
 dependencies = [
     'defusedxml>=0.7.1',  # latest as at 7/31/23
     'packaging>=23.1',   # latest as at 7/31/23
-    'requests>=2.31',  # latest as at 7/31/23
-    'urllib3==2.2.2',  # dependabot
+    'requests==2.28.1',  # latest as at 7/31/23
+    'urllib3==1.26.11',  # edited due to conflicts with botocore
     'typing_extensions>=4.0.1',
 ]
 requires-python = ">=3.7"
